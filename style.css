@@ -1,4 +1,47 @@
-body {
-  background-color: aqua;
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+} 
+
+body{
+  margin:2rem;
 }
+
+.fylo-container1 {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+}
+
+.list-container{
+  justify-content: space-between;
+  display: flex;
+  gap: 1rem;
+}
+
+.text-container{
+  /* padding:0.7rem; */
+  padding-bottom: 1.5rem;
+}
+
+.message-container{
+  /* padding:1rem; */
+  padding-bottom: 1.3rem;
+}
+
+.get-started{
+  background-color:  hsl(224, 93%, 58%);
+  border: none;
+  padding: 0.5rem 1.5rem;
+  color: white;
+}
+
+
+
+.illustration-1{
+  display:flex;
+justify-items: end;
+}
+
+
