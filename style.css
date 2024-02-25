@@ -44,4 +44,54 @@ body{
 justify-items: end;
 }
 
+.productive{
+  margin-bottom: 1.7rem;
+}
+
+.files{
+  margin-bottom: 1.2rem;
+}
+
+.icon-text{
+  display: flex;
+  margin-bottom: 2rem;
+}
+.container4 {
+  background-color:hsla(0, 20%, 95%, 0.893);
+  width:20rem;
+  height: 23rem;
+  padding: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.img-text{
+  display: flex;
+}
+.img-text img{
+  border-radius: 15rem;
+}
+.smallbox-container{
+  padding-bottom: 2rem;
+}
+
+.container5{
+  background-color: hsl(238, 22%, 44%);
+  padding: 5rem 3.5rem;
+  color: white;
+}
+
+.access{
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.footer{
+  background-color: hsl(243, 87%, 12%);
+  padding: 5rem 3.5rem;
+  color: white;
+
+}
+
+
+
 
