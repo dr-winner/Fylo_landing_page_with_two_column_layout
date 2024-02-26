@@ -285,8 +285,78 @@ form button{
 }
 
 .footer{
+  display: flex;
   background-color: hsl(243, 87%, 12%);
   padding: 5rem 3.5rem;
   color: white;
 
+}
+
+.footer p{
+  /* margin: 0 2rem 1rem 0;  */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  
+}
+
+.footer img {
+  margin-bottom: 2rem;
+  color: white;
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.footer i{  
+  font-size: 2rem;
+  margin: 0 1rem 0.5rem 0;  
+}
+
+.about-navbar{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-navbar{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-navbar ul li a, .contact-navbar ul li a{
+  color: white;
+}
+.about-navbar ul li{
+  display: flex;
+  list-style-type: none;
+}
+
+.contact-navbar ul li{
+  display: flex;
+  list-style-type: none;
+}
+
+.about-navbar nav ul li{
+  margin: 1rem 8rem;
+  text-decoration: none;
+}
+
+.contact-navbar a{
+  text-decoration: none;
+}
+
+.about-navbar a{  
+  text-decoration: none;
+}
+
+
+.contact-navbar nav ul li{
+  margin: 0.7rem 8rem;
+  text-decoration: none;
+}
+
+.soc-media-icons{
+  padding-top: 2rem;
+  display: flex;
 }
